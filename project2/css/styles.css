@@ -1,0 +1,56 @@
+body {
+    margin-left: 20px;
+}
+.brand-image{
+    border: 5px solid black;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+
+.brand-sub-tag{
+    margin-left: 90px;
+    margin-top:0px;
+}
+
+.todos {
+    list-style-type: none;
+}
+
+.testimonials {
+    border: 2px solid red;
+    background-color: #eee;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.testimonials::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.testimonials img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.testimonials span {
+    font-size: 20px;
+    /* margin-right: 15px; */
+    padding-top: 100px;
+}
+
+.testimonialsptag {
+    padding-top: 30px;
+}
